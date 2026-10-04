@@ -1,0 +1,8 @@
+pandas
+numpy
+xlrd
+datasets
+pdfplumber
+geopandas
+rasterio
+rasterstats

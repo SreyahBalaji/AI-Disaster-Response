@@ -1,0 +1,11 @@
+dataset_id,name,provider,year,geography,data_type,real_or_simulated,purpose,status
+DS001,Kerala Flood Hazard Probability,KSDMA,2020-2024,Kerala,Geospatial Raster,Real/Source-Modelled,Flood hazard features and GIS,Accepted
+DS002,Kerala Event-Specific Flood Data,KSDMA,2018,Kerala,Geospatial,Real,Historical affected geography,Accepted
+DS003,Kerala Population Data,Government of India,2011-2036,Kerala,Tabular,Real/Projected,Population features,Accepted with limitations
+DS004,NFHS-5 Kerala District Indicators,Government of India,2019-2021,Kerala Districts,Tabular,Real,Vulnerability indicators,Accepted
+DS005,OpenStreetMap Kerala,OpenStreetMap/Geofabrik,Current,Kerala,Geospatial,Real,Road network and geographic features,Accepted
+DS006,HumAID Kerala Floods 2018,QCRI,2018,Kerala Flood Event,Text,Real Historical,Crisis report NLP,Accepted
+DS007,Kerala Flood Relief Camps,Government of Kerala,2018,Kerala,Tabular,Real/Partial,Relief-centre information,Partial
+DS008,Resource Demand,Project Simulation,Experimental,Kerala Scenario,Tabular Time-Series,Simulated,Food water medicine and rescue demand,Planned
+DS009,Relief Centre Inventory,Project Simulation,Experimental,Kerala Scenario,Tabular Time-Series,Simulated,Resource availability and capacity,Planned
+DS010,Dynamic Disaster Events,Project Simulation,Experimental,Kerala Scenario,Time-Series,Simulated,Demand stock and road-condition changes,Planned
