@@ -1,0 +1,27 @@
+ward_no,ward_name,area_km2,population_2011_estimated,data_type,method
+1,MANGLAPUZHA SEMINARY,0.571607,2004,semi-synthetic,area_proportional_allocation
+2,GURUMANDIRAM,0.242236,849,semi-synthetic,area_proportional_allocation
+3,DESAM KADAVU,0.344024,1206,semi-synthetic,area_proportional_allocation
+4,MANA,0.135919,476,semi-synthetic,area_proportional_allocation
+5,MANAPPURAM,0.303468,1064,semi-synthetic,area_proportional_allocation
+6,GANAPATHI TEMPLE,0.216784,760,semi-synthetic,area_proportional_allocation
+7,ST: ANNS CHURCH,0.221677,777,semi-synthetic,area_proportional_allocation
+8,KADATHUKADAVU,0.190232,667,semi-synthetic,area_proportional_allocation
+9,PALACE,0.33437,1172,semi-synthetic,area_proportional_allocation
+10,LIBRARY,0.200736,704,semi-synthetic,area_proportional_allocation
+11,OOMANKUZHITHADAM,0.2149,753,semi-synthetic,area_proportional_allocation
+12,MUNICIPAL OFFICE,0.321487,1127,semi-synthetic,area_proportional_allocation
+13,MADRASA,0.306638,1075,semi-synthetic,area_proportional_allocation
+14,ASAN KOLANI,0.158169,554,semi-synthetic,area_proportional_allocation
+15,TREASURY,0.266044,932,semi-synthetic,area_proportional_allocation
+16,SNEHALAYAM,0.120926,424,semi-synthetic,area_proportional_allocation
+17,MADHAVAPURAM,0.258972,908,semi-synthetic,area_proportional_allocation
+18,NAZRATH,0.167118,586,semi-synthetic,area_proportional_allocation
+19,THRIKKUNNATHU,0.146813,515,semi-synthetic,area_proportional_allocation
+20,THALUK HOSPITAL,0.398526,1397,semi-synthetic,area_proportional_allocation
+21,SASTHA TEMPLE,0.224277,786,semi-synthetic,area_proportional_allocation
+22,PULINCHODE,0.189623,665,semi-synthetic,area_proportional_allocation
+23,MARKET,0.214378,751,semi-synthetic,area_proportional_allocation
+24,PRIYADARSINI,0.295012,1034,semi-synthetic,area_proportional_allocation
+25,CANAL,0.204429,717,semi-synthetic,area_proportional_allocation
+26,THANDIKKAL,0.149886,525,semi-synthetic,area_proportional_allocation

@@ -1,0 +1,172 @@
+[
+    {
+        "report_id": "R001",
+        "ward_no": 3,
+        "simulation_minute": 0,
+        "affected_families": 40,
+        "affected_patients": null,
+        "estimated_people": 160,
+        "demand": {
+            "water_litres": 480,
+            "food_meals": 0,
+            "rescue_cases": 40,
+            "shelter_households": 0,
+            "medical_cases": 0
+        },
+        "unquantified_resources": [],
+        "data_type": "synthetic"
+    },
+    {
+        "report_id": "R002",
+        "ward_no": 5,
+        "simulation_minute": 5,
+        "affected_families": 25,
+        "affected_patients": null,
+        "estimated_people": 100,
+        "demand": {
+            "water_litres": 300,
+            "food_meals": 300,
+            "rescue_cases": 0,
+            "shelter_households": 0,
+            "medical_cases": 0
+        },
+        "unquantified_resources": [],
+        "data_type": "synthetic"
+    },
+    {
+        "report_id": "R003",
+        "ward_no": 1,
+        "simulation_minute": 12,
+        "affected_families": 15,
+        "affected_patients": null,
+        "estimated_people": 60,
+        "demand": {
+            "water_litres": 0,
+            "food_meals": 0,
+            "rescue_cases": 15,
+            "shelter_households": 0,
+            "medical_cases": 0
+        },
+        "unquantified_resources": [],
+        "data_type": "synthetic"
+    },
+    {
+        "report_id": "R004",
+        "ward_no": 20,
+        "simulation_minute": 20,
+        "affected_families": null,
+        "affected_patients": 12,
+        "estimated_people": null,
+        "demand": {
+            "water_litres": 0,
+            "food_meals": 0,
+            "rescue_cases": 0,
+            "shelter_households": 0,
+            "medical_cases": 12
+        },
+        "unquantified_resources": [],
+        "data_type": "synthetic"
+    },
+    {
+        "report_id": "R005",
+        "ward_no": 8,
+        "simulation_minute": 28,
+        "affected_families": 30,
+        "affected_patients": null,
+        "estimated_people": 120,
+        "demand": {
+            "water_litres": 0,
+            "food_meals": 0,
+            "rescue_cases": 0,
+            "shelter_households": 30,
+            "medical_cases": 0
+        },
+        "unquantified_resources": [],
+        "data_type": "synthetic"
+    },
+    {
+        "report_id": "R006",
+        "ward_no": 23,
+        "simulation_minute": 40,
+        "affected_families": 20,
+        "affected_patients": null,
+        "estimated_people": 80,
+        "demand": {
+            "water_litres": 0,
+            "food_meals": 240,
+            "rescue_cases": 0,
+            "shelter_households": 0,
+            "medical_cases": 0
+        },
+        "unquantified_resources": [],
+        "data_type": "synthetic"
+    },
+    {
+        "report_id": "R007",
+        "ward_no": 24,
+        "simulation_minute": 52,
+        "affected_families": 35,
+        "affected_patients": null,
+        "estimated_people": 140,
+        "demand": {
+            "water_litres": 0,
+            "food_meals": 0,
+            "rescue_cases": 35,
+            "shelter_households": 0,
+            "medical_cases": 0
+        },
+        "unquantified_resources": [],
+        "data_type": "synthetic"
+    },
+    {
+        "report_id": "R008",
+        "ward_no": 9,
+        "simulation_minute": 65,
+        "affected_families": 18,
+        "affected_patients": null,
+        "estimated_people": 72,
+        "demand": {
+            "water_litres": 216,
+            "food_meals": 0,
+            "rescue_cases": 0,
+            "shelter_households": 0,
+            "medical_cases": 0
+        },
+        "unquantified_resources": [],
+        "data_type": "synthetic"
+    },
+    {
+        "report_id": "R009",
+        "ward_no": 21,
+        "simulation_minute": 80,
+        "affected_families": 10,
+        "affected_patients": null,
+        "estimated_people": 40,
+        "demand": {
+            "water_litres": 0,
+            "food_meals": 120,
+            "rescue_cases": 0,
+            "shelter_households": 0,
+            "medical_cases": 40
+        },
+        "unquantified_resources": [],
+        "data_type": "synthetic"
+    },
+    {
+        "report_id": "R010",
+        "ward_no": 26,
+        "simulation_minute": 95,
+        "affected_families": 22,
+        "affected_patients": null,
+        "estimated_people": 88,
+        "demand": {
+            "water_litres": 0,
+            "food_meals": 0,
+            "rescue_cases": 22,
+            "shelter_households": 22,
+            "medical_cases": 0
+        },
+        "unquantified_resources": [],
+        "data_type": "synthetic"
+    }
+]

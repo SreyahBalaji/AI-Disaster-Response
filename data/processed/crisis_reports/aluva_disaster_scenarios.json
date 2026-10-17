@@ -1,0 +1,410 @@
+{
+  "low": {
+    "multiplier": 0.5,
+    "data_type": "synthetic",
+    "events": [
+      {
+        "report_id": "R001",
+        "ward_no": 3,
+        "simulation_minute": 0,
+        "demand": {
+          "water_litres": 240,
+          "food_meals": 0,
+          "rescue_cases": 20,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R002",
+        "ward_no": 5,
+        "simulation_minute": 5,
+        "demand": {
+          "water_litres": 150,
+          "food_meals": 150,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R003",
+        "ward_no": 1,
+        "simulation_minute": 12,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 8,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R004",
+        "ward_no": 20,
+        "simulation_minute": 20,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 6
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R005",
+        "ward_no": 8,
+        "simulation_minute": 28,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 0,
+          "shelter_households": 15,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R006",
+        "ward_no": 23,
+        "simulation_minute": 40,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 120,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R007",
+        "ward_no": 24,
+        "simulation_minute": 52,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 18,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R008",
+        "ward_no": 9,
+        "simulation_minute": 65,
+        "demand": {
+          "water_litres": 108,
+          "food_meals": 0,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R009",
+        "ward_no": 21,
+        "simulation_minute": 80,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 60,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 20
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R010",
+        "ward_no": 26,
+        "simulation_minute": 95,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 11,
+          "shelter_households": 11,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      }
+    ]
+  },
+  "moderate": {
+    "multiplier": 1.0,
+    "data_type": "synthetic",
+    "events": [
+      {
+        "report_id": "R001",
+        "ward_no": 3,
+        "simulation_minute": 0,
+        "demand": {
+          "water_litres": 480,
+          "food_meals": 0,
+          "rescue_cases": 40,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R002",
+        "ward_no": 5,
+        "simulation_minute": 5,
+        "demand": {
+          "water_litres": 300,
+          "food_meals": 300,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R003",
+        "ward_no": 1,
+        "simulation_minute": 12,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 15,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R004",
+        "ward_no": 20,
+        "simulation_minute": 20,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 12
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R005",
+        "ward_no": 8,
+        "simulation_minute": 28,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 0,
+          "shelter_households": 30,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R006",
+        "ward_no": 23,
+        "simulation_minute": 40,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 240,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R007",
+        "ward_no": 24,
+        "simulation_minute": 52,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 35,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R008",
+        "ward_no": 9,
+        "simulation_minute": 65,
+        "demand": {
+          "water_litres": 216,
+          "food_meals": 0,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R009",
+        "ward_no": 21,
+        "simulation_minute": 80,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 120,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 40
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R010",
+        "ward_no": 26,
+        "simulation_minute": 95,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 22,
+          "shelter_households": 22,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      }
+    ]
+  },
+  "severe": {
+    "multiplier": 2.0,
+    "data_type": "synthetic",
+    "events": [
+      {
+        "report_id": "R001",
+        "ward_no": 3,
+        "simulation_minute": 0,
+        "demand": {
+          "water_litres": 960,
+          "food_meals": 0,
+          "rescue_cases": 80,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R002",
+        "ward_no": 5,
+        "simulation_minute": 5,
+        "demand": {
+          "water_litres": 600,
+          "food_meals": 600,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R003",
+        "ward_no": 1,
+        "simulation_minute": 12,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 30,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R004",
+        "ward_no": 20,
+        "simulation_minute": 20,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 24
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R005",
+        "ward_no": 8,
+        "simulation_minute": 28,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 0,
+          "shelter_households": 60,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R006",
+        "ward_no": 23,
+        "simulation_minute": 40,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 480,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R007",
+        "ward_no": 24,
+        "simulation_minute": 52,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 70,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R008",
+        "ward_no": 9,
+        "simulation_minute": 65,
+        "demand": {
+          "water_litres": 432,
+          "food_meals": 0,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R009",
+        "ward_no": 21,
+        "simulation_minute": 80,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 240,
+          "rescue_cases": 0,
+          "shelter_households": 0,
+          "medical_cases": 80
+        },
+        "unquantified_resources": []
+      },
+      {
+        "report_id": "R010",
+        "ward_no": 26,
+        "simulation_minute": 95,
+        "demand": {
+          "water_litres": 0,
+          "food_meals": 0,
+          "rescue_cases": 44,
+          "shelter_households": 44,
+          "medical_cases": 0
+        },
+        "unquantified_resources": []
+      }
+    ]
+  }
+}

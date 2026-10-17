@@ -1,0 +1,23 @@
+{
+    "experiment": "Federated Learning - Aluva Prototype",
+    "participating_centres": [
+        "RC01",
+        "RC02",
+        "RC03"
+    ],
+    "aggregation_method": "FedAvg",
+    "training_rounds": 5,
+    "dataset": "Synthetic resource-related features",
+    "test_mse": {
+        "untrained": 1.385763,
+        "federated": 0.000723,
+        "centralized": 0.000801
+    },
+    "limitations": [
+        "Synthetic training and evaluation data",
+        "Centralized comparison not fully controlled",
+        "No real-world disaster prediction validation",
+        "No differential privacy or secure aggregation",
+        "Not yet integrated with MARL"
+    ]
+}

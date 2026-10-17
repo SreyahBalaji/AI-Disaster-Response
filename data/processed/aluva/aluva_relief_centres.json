@@ -1,0 +1,38 @@
+[
+  {
+    "centre_id": "RC01",
+    "name": "Simulated Relief Centre 1",
+    "ward_no": 3,
+    "resources": {
+      "water_litres": 500,
+      "food_meals": 350,
+      "rescue_cases": 40,
+      "shelter_households": 20,
+      "medical_cases": 20
+    }
+  },
+  {
+    "centre_id": "RC02",
+    "name": "Simulated Relief Centre 2",
+    "ward_no": 13,
+    "resources": {
+      "water_litres": 400,
+      "food_meals": 300,
+      "rescue_cases": 40,
+      "shelter_households": 20,
+      "medical_cases": 20
+    }
+  },
+  {
+    "centre_id": "RC03",
+    "name": "Simulated Relief Centre 3",
+    "ward_no": 23,
+    "resources": {
+      "water_litres": 400,
+      "food_meals": 300,
+      "rescue_cases": 40,
+      "shelter_households": 20,
+      "medical_cases": 20
+    }
+  }
+]

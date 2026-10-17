@@ -1,0 +1,157 @@
+ward_no,ward_name,return_period_years,ward_pixel_count,hazard_pixel_count,flood_exposure_proxy,method
+1,MANGLAPUZHA SEMINARY,10,68,10,0.14705882352941177,valid_hazard_pixel_fraction
+1,MANGLAPUZHA SEMINARY,25,68,11,0.16176470588235295,valid_hazard_pixel_fraction
+1,MANGLAPUZHA SEMINARY,50,68,15,0.22058823529411764,valid_hazard_pixel_fraction
+1,MANGLAPUZHA SEMINARY,100,68,18,0.2647058823529412,valid_hazard_pixel_fraction
+1,MANGLAPUZHA SEMINARY,200,68,21,0.3088235294117647,valid_hazard_pixel_fraction
+1,MANGLAPUZHA SEMINARY,500,68,30,0.4411764705882353,valid_hazard_pixel_fraction
+2,GURUMANDIRAM,10,27,0,0.0,valid_hazard_pixel_fraction
+2,GURUMANDIRAM,25,27,0,0.0,valid_hazard_pixel_fraction
+2,GURUMANDIRAM,50,27,0,0.0,valid_hazard_pixel_fraction
+2,GURUMANDIRAM,100,27,2,0.07407407407407407,valid_hazard_pixel_fraction
+2,GURUMANDIRAM,200,27,2,0.07407407407407407,valid_hazard_pixel_fraction
+2,GURUMANDIRAM,500,27,8,0.2962962962962963,valid_hazard_pixel_fraction
+3,DESAM KADAVU,10,43,23,0.5348837209302325,valid_hazard_pixel_fraction
+3,DESAM KADAVU,25,43,23,0.5348837209302325,valid_hazard_pixel_fraction
+3,DESAM KADAVU,50,43,23,0.5348837209302325,valid_hazard_pixel_fraction
+3,DESAM KADAVU,100,43,23,0.5348837209302325,valid_hazard_pixel_fraction
+3,DESAM KADAVU,200,43,24,0.5581395348837209,valid_hazard_pixel_fraction
+3,DESAM KADAVU,500,43,25,0.5813953488372093,valid_hazard_pixel_fraction
+4,MANA,10,14,0,0.0,valid_hazard_pixel_fraction
+4,MANA,25,14,0,0.0,valid_hazard_pixel_fraction
+4,MANA,50,14,0,0.0,valid_hazard_pixel_fraction
+4,MANA,100,14,0,0.0,valid_hazard_pixel_fraction
+4,MANA,200,14,0,0.0,valid_hazard_pixel_fraction
+4,MANA,500,14,0,0.0,valid_hazard_pixel_fraction
+5,MANAPPURAM,10,39,14,0.358974358974359,valid_hazard_pixel_fraction
+5,MANAPPURAM,25,39,14,0.358974358974359,valid_hazard_pixel_fraction
+5,MANAPPURAM,50,39,14,0.358974358974359,valid_hazard_pixel_fraction
+5,MANAPPURAM,100,39,14,0.358974358974359,valid_hazard_pixel_fraction
+5,MANAPPURAM,200,39,14,0.358974358974359,valid_hazard_pixel_fraction
+5,MANAPPURAM,500,39,14,0.358974358974359,valid_hazard_pixel_fraction
+6,GANAPATHI TEMPLE,10,23,0,0.0,valid_hazard_pixel_fraction
+6,GANAPATHI TEMPLE,25,23,0,0.0,valid_hazard_pixel_fraction
+6,GANAPATHI TEMPLE,50,23,0,0.0,valid_hazard_pixel_fraction
+6,GANAPATHI TEMPLE,100,23,0,0.0,valid_hazard_pixel_fraction
+6,GANAPATHI TEMPLE,200,23,1,0.043478260869565216,valid_hazard_pixel_fraction
+6,GANAPATHI TEMPLE,500,23,1,0.043478260869565216,valid_hazard_pixel_fraction
+7,ST: ANNS CHURCH,10,29,0,0.0,valid_hazard_pixel_fraction
+7,ST: ANNS CHURCH,25,29,0,0.0,valid_hazard_pixel_fraction
+7,ST: ANNS CHURCH,50,29,0,0.0,valid_hazard_pixel_fraction
+7,ST: ANNS CHURCH,100,29,2,0.06896551724137931,valid_hazard_pixel_fraction
+7,ST: ANNS CHURCH,200,29,3,0.10344827586206896,valid_hazard_pixel_fraction
+7,ST: ANNS CHURCH,500,29,6,0.20689655172413793,valid_hazard_pixel_fraction
+8,KADATHUKADAVU,10,25,4,0.16,valid_hazard_pixel_fraction
+8,KADATHUKADAVU,25,25,5,0.2,valid_hazard_pixel_fraction
+8,KADATHUKADAVU,50,25,5,0.2,valid_hazard_pixel_fraction
+8,KADATHUKADAVU,100,25,5,0.2,valid_hazard_pixel_fraction
+8,KADATHUKADAVU,200,25,5,0.2,valid_hazard_pixel_fraction
+8,KADATHUKADAVU,500,25,5,0.2,valid_hazard_pixel_fraction
+9,PALACE,10,37,4,0.10810810810810811,valid_hazard_pixel_fraction
+9,PALACE,25,37,4,0.10810810810810811,valid_hazard_pixel_fraction
+9,PALACE,50,37,4,0.10810810810810811,valid_hazard_pixel_fraction
+9,PALACE,100,37,4,0.10810810810810811,valid_hazard_pixel_fraction
+9,PALACE,200,37,4,0.10810810810810811,valid_hazard_pixel_fraction
+9,PALACE,500,37,4,0.10810810810810811,valid_hazard_pixel_fraction
+10,LIBRARY,10,23,0,0.0,valid_hazard_pixel_fraction
+10,LIBRARY,25,23,0,0.0,valid_hazard_pixel_fraction
+10,LIBRARY,50,23,0,0.0,valid_hazard_pixel_fraction
+10,LIBRARY,100,23,0,0.0,valid_hazard_pixel_fraction
+10,LIBRARY,200,23,0,0.0,valid_hazard_pixel_fraction
+10,LIBRARY,500,23,0,0.0,valid_hazard_pixel_fraction
+11,OOMANKUZHITHADAM,10,25,0,0.0,valid_hazard_pixel_fraction
+11,OOMANKUZHITHADAM,25,25,0,0.0,valid_hazard_pixel_fraction
+11,OOMANKUZHITHADAM,50,25,0,0.0,valid_hazard_pixel_fraction
+11,OOMANKUZHITHADAM,100,25,0,0.0,valid_hazard_pixel_fraction
+11,OOMANKUZHITHADAM,200,25,0,0.0,valid_hazard_pixel_fraction
+11,OOMANKUZHITHADAM,500,25,0,0.0,valid_hazard_pixel_fraction
+12,MUNICIPAL OFFICE,10,41,3,0.07317073170731707,valid_hazard_pixel_fraction
+12,MUNICIPAL OFFICE,25,41,5,0.12195121951219512,valid_hazard_pixel_fraction
+12,MUNICIPAL OFFICE,50,41,5,0.12195121951219512,valid_hazard_pixel_fraction
+12,MUNICIPAL OFFICE,100,41,5,0.12195121951219512,valid_hazard_pixel_fraction
+12,MUNICIPAL OFFICE,200,41,5,0.12195121951219512,valid_hazard_pixel_fraction
+12,MUNICIPAL OFFICE,500,41,5,0.12195121951219512,valid_hazard_pixel_fraction
+13,MADRASA,10,38,1,0.02631578947368421,valid_hazard_pixel_fraction
+13,MADRASA,25,38,4,0.10526315789473684,valid_hazard_pixel_fraction
+13,MADRASA,50,38,4,0.10526315789473684,valid_hazard_pixel_fraction
+13,MADRASA,100,38,4,0.10526315789473684,valid_hazard_pixel_fraction
+13,MADRASA,200,38,4,0.10526315789473684,valid_hazard_pixel_fraction
+13,MADRASA,500,38,4,0.10526315789473684,valid_hazard_pixel_fraction
+14,ASAN KOLANI,10,20,0,0.0,valid_hazard_pixel_fraction
+14,ASAN KOLANI,25,20,0,0.0,valid_hazard_pixel_fraction
+14,ASAN KOLANI,50,20,0,0.0,valid_hazard_pixel_fraction
+14,ASAN KOLANI,100,20,0,0.0,valid_hazard_pixel_fraction
+14,ASAN KOLANI,200,20,0,0.0,valid_hazard_pixel_fraction
+14,ASAN KOLANI,500,20,1,0.05,valid_hazard_pixel_fraction
+15,TREASURY,10,32,2,0.0625,valid_hazard_pixel_fraction
+15,TREASURY,25,32,2,0.0625,valid_hazard_pixel_fraction
+15,TREASURY,50,32,2,0.0625,valid_hazard_pixel_fraction
+15,TREASURY,100,32,2,0.0625,valid_hazard_pixel_fraction
+15,TREASURY,200,32,2,0.0625,valid_hazard_pixel_fraction
+15,TREASURY,500,32,5,0.15625,valid_hazard_pixel_fraction
+16,SNEHALAYAM,10,14,0,0.0,valid_hazard_pixel_fraction
+16,SNEHALAYAM,25,14,0,0.0,valid_hazard_pixel_fraction
+16,SNEHALAYAM,50,14,0,0.0,valid_hazard_pixel_fraction
+16,SNEHALAYAM,100,14,0,0.0,valid_hazard_pixel_fraction
+16,SNEHALAYAM,200,14,0,0.0,valid_hazard_pixel_fraction
+16,SNEHALAYAM,500,14,1,0.07142857142857142,valid_hazard_pixel_fraction
+17,MADHAVAPURAM,10,30,0,0.0,valid_hazard_pixel_fraction
+17,MADHAVAPURAM,25,30,0,0.0,valid_hazard_pixel_fraction
+17,MADHAVAPURAM,50,30,0,0.0,valid_hazard_pixel_fraction
+17,MADHAVAPURAM,100,30,0,0.0,valid_hazard_pixel_fraction
+17,MADHAVAPURAM,200,30,0,0.0,valid_hazard_pixel_fraction
+17,MADHAVAPURAM,500,30,0,0.0,valid_hazard_pixel_fraction
+18,NAZRATH,10,19,0,0.0,valid_hazard_pixel_fraction
+18,NAZRATH,25,19,0,0.0,valid_hazard_pixel_fraction
+18,NAZRATH,50,19,0,0.0,valid_hazard_pixel_fraction
+18,NAZRATH,100,19,0,0.0,valid_hazard_pixel_fraction
+18,NAZRATH,200,19,1,0.05263157894736842,valid_hazard_pixel_fraction
+18,NAZRATH,500,19,2,0.10526315789473684,valid_hazard_pixel_fraction
+19,THRIKKUNNATHU,10,16,0,0.0,valid_hazard_pixel_fraction
+19,THRIKKUNNATHU,25,16,0,0.0,valid_hazard_pixel_fraction
+19,THRIKKUNNATHU,50,16,0,0.0,valid_hazard_pixel_fraction
+19,THRIKKUNNATHU,100,16,0,0.0,valid_hazard_pixel_fraction
+19,THRIKKUNNATHU,200,16,0,0.0,valid_hazard_pixel_fraction
+19,THRIKKUNNATHU,500,16,0,0.0,valid_hazard_pixel_fraction
+20,THALUK HOSPITAL,10,45,0,0.0,valid_hazard_pixel_fraction
+20,THALUK HOSPITAL,25,45,0,0.0,valid_hazard_pixel_fraction
+20,THALUK HOSPITAL,50,45,0,0.0,valid_hazard_pixel_fraction
+20,THALUK HOSPITAL,100,45,0,0.0,valid_hazard_pixel_fraction
+20,THALUK HOSPITAL,200,45,2,0.044444444444444446,valid_hazard_pixel_fraction
+20,THALUK HOSPITAL,500,45,6,0.13333333333333333,valid_hazard_pixel_fraction
+21,SASTHA TEMPLE,10,27,1,0.037037037037037035,valid_hazard_pixel_fraction
+21,SASTHA TEMPLE,25,27,1,0.037037037037037035,valid_hazard_pixel_fraction
+21,SASTHA TEMPLE,50,27,1,0.037037037037037035,valid_hazard_pixel_fraction
+21,SASTHA TEMPLE,100,27,1,0.037037037037037035,valid_hazard_pixel_fraction
+21,SASTHA TEMPLE,200,27,1,0.037037037037037035,valid_hazard_pixel_fraction
+21,SASTHA TEMPLE,500,27,12,0.4444444444444444,valid_hazard_pixel_fraction
+22,PULINCHODE,10,24,11,0.4583333333333333,valid_hazard_pixel_fraction
+22,PULINCHODE,25,24,11,0.4583333333333333,valid_hazard_pixel_fraction
+22,PULINCHODE,50,24,11,0.4583333333333333,valid_hazard_pixel_fraction
+22,PULINCHODE,100,24,11,0.4583333333333333,valid_hazard_pixel_fraction
+22,PULINCHODE,200,24,11,0.4583333333333333,valid_hazard_pixel_fraction
+22,PULINCHODE,500,24,14,0.5833333333333334,valid_hazard_pixel_fraction
+23,MARKET,10,25,8,0.32,valid_hazard_pixel_fraction
+23,MARKET,25,25,8,0.32,valid_hazard_pixel_fraction
+23,MARKET,50,25,9,0.36,valid_hazard_pixel_fraction
+23,MARKET,100,25,9,0.36,valid_hazard_pixel_fraction
+23,MARKET,200,25,9,0.36,valid_hazard_pixel_fraction
+23,MARKET,500,25,14,0.56,valid_hazard_pixel_fraction
+24,PRIYADARSINI,10,35,2,0.05714285714285714,valid_hazard_pixel_fraction
+24,PRIYADARSINI,25,35,2,0.05714285714285714,valid_hazard_pixel_fraction
+24,PRIYADARSINI,50,35,6,0.17142857142857143,valid_hazard_pixel_fraction
+24,PRIYADARSINI,100,35,13,0.37142857142857144,valid_hazard_pixel_fraction
+24,PRIYADARSINI,200,35,19,0.5428571428571428,valid_hazard_pixel_fraction
+24,PRIYADARSINI,500,35,23,0.6571428571428571,valid_hazard_pixel_fraction
+25,CANAL,10,23,4,0.17391304347826086,valid_hazard_pixel_fraction
+25,CANAL,25,23,4,0.17391304347826086,valid_hazard_pixel_fraction
+25,CANAL,50,23,4,0.17391304347826086,valid_hazard_pixel_fraction
+25,CANAL,100,23,5,0.21739130434782608,valid_hazard_pixel_fraction
+25,CANAL,200,23,7,0.30434782608695654,valid_hazard_pixel_fraction
+25,CANAL,500,23,7,0.30434782608695654,valid_hazard_pixel_fraction
+26,THANDIKKAL,10,20,3,0.15,valid_hazard_pixel_fraction
+26,THANDIKKAL,25,20,5,0.25,valid_hazard_pixel_fraction
+26,THANDIKKAL,50,20,7,0.35,valid_hazard_pixel_fraction
+26,THANDIKKAL,100,20,13,0.65,valid_hazard_pixel_fraction
+26,THANDIKKAL,200,20,16,0.8,valid_hazard_pixel_fraction
+26,THANDIKKAL,500,20,17,0.85,valid_hazard_pixel_fraction

@@ -1,0 +1,61 @@
+
+import json
+from pathlib import Path
+
+results = {
+    "experiment": "Cooperative PPO dynamic disaster allocation",
+    "scenario": {
+        "location": "Aluva",
+        "wards": [3, 5, 9],
+        "relief_centres": 3,
+        "initial_water_stock_litres": 1300,
+        "initial_water_demand_litres": 996,
+        "additional_ward9_demand_litres": 500,
+        "surge_step": 10,
+        "maximum_steps": 50
+    },
+    "models": {
+        "previous_cooperative_ppo": {
+            "average_delivered_litres": 1001.5,
+            "demand_satisfaction": 0.6694,
+            "fairness_gap": 0.6906,
+            "average_ward9_delivery_litres": 221.5
+        },
+        "retrained_cooperative_ppo": {
+            "average_delivered_litres": 1247.0,
+            "demand_satisfaction": 0.8336,
+            "fairness_gap": 0.3080,
+            "average_ward9_delivery_litres": 493.8
+        },
+        "time_constrained_fair_baseline": {
+            "delivered_litres": 1300,
+            "demand_satisfaction": 0.8690,
+            "fairness_gap": 0.0091,
+            "ward9_delivery_litres": 620
+        }
+    },
+    "evaluation_notes": [
+        "PPO values are averages across 100 stochastic episodes.",
+        "The fair baseline is one deterministic simulation.",
+        "The retrained PPO improves delivery and fairness over the previous model.",
+        "The fair baseline still outperforms PPO.",
+        "Results are from a simplified simulated allocation environment."
+    ]
+}
+
+output_path = Path(
+    "data/processed/marl/cooperative_experiment_results.json"
+)
+
+output_path.parent.mkdir(
+    parents=True,
+    exist_ok=True
+)
+
+with open(output_path, "w", encoding="utf-8") as file:
+    json.dump(results, file, indent=4)
+
+print("COOPERATIVE MARL EXPERIMENT RESULTS")
+print("--------------------------------")
+print("Saved to:", output_path)
+print("SUCCESS! Experiment results saved.")

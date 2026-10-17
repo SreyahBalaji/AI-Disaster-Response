@@ -1,0 +1,1892 @@
+[
+  {
+    "simulation_minute": 0,
+    "trigger_report_id": "R001",
+    "updated_ward": 3,
+    "ward_demand": {
+      "1": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "2": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "3": {
+        "water_litres": 480,
+        "food_meals": 0,
+        "rescue_cases": 40,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "4": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "5": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "6": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "7": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "8": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "9": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "10": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "11": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "12": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "13": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "14": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "15": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "16": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "17": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "18": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "19": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "20": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "21": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "22": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "23": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "24": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "25": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "26": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      }
+    }
+  },
+  {
+    "simulation_minute": 5,
+    "trigger_report_id": "R002",
+    "updated_ward": 5,
+    "ward_demand": {
+      "1": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "2": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "3": {
+        "water_litres": 480,
+        "food_meals": 0,
+        "rescue_cases": 40,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "4": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "5": {
+        "water_litres": 300,
+        "food_meals": 300,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "6": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "7": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "8": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "9": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "10": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "11": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "12": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "13": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "14": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "15": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "16": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "17": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "18": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "19": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "20": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "21": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "22": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "23": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "24": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "25": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "26": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      }
+    }
+  },
+  {
+    "simulation_minute": 12,
+    "trigger_report_id": "R003",
+    "updated_ward": 1,
+    "ward_demand": {
+      "1": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 15,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "2": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "3": {
+        "water_litres": 480,
+        "food_meals": 0,
+        "rescue_cases": 40,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "4": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "5": {
+        "water_litres": 300,
+        "food_meals": 300,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "6": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "7": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "8": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "9": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "10": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "11": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "12": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "13": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "14": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "15": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "16": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "17": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "18": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "19": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "20": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "21": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "22": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "23": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "24": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "25": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "26": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      }
+    }
+  },
+  {
+    "simulation_minute": 20,
+    "trigger_report_id": "R004",
+    "updated_ward": 20,
+    "ward_demand": {
+      "1": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 15,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "2": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "3": {
+        "water_litres": 480,
+        "food_meals": 0,
+        "rescue_cases": 40,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "4": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "5": {
+        "water_litres": 300,
+        "food_meals": 300,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "6": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "7": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "8": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "9": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "10": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "11": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "12": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "13": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "14": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "15": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "16": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "17": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "18": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "19": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "20": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 12
+      },
+      "21": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "22": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "23": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "24": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "25": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "26": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      }
+    }
+  },
+  {
+    "simulation_minute": 28,
+    "trigger_report_id": "R005",
+    "updated_ward": 8,
+    "ward_demand": {
+      "1": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 15,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "2": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "3": {
+        "water_litres": 480,
+        "food_meals": 0,
+        "rescue_cases": 40,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "4": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "5": {
+        "water_litres": 300,
+        "food_meals": 300,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "6": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "7": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "8": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 30,
+        "medical_cases": 0
+      },
+      "9": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "10": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "11": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "12": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "13": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "14": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "15": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "16": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "17": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "18": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "19": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "20": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 12
+      },
+      "21": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "22": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "23": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "24": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "25": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "26": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      }
+    }
+  },
+  {
+    "simulation_minute": 40,
+    "trigger_report_id": "R006",
+    "updated_ward": 23,
+    "ward_demand": {
+      "1": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 15,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "2": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "3": {
+        "water_litres": 480,
+        "food_meals": 0,
+        "rescue_cases": 40,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "4": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "5": {
+        "water_litres": 300,
+        "food_meals": 300,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "6": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "7": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "8": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 30,
+        "medical_cases": 0
+      },
+      "9": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "10": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "11": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "12": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "13": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "14": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "15": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "16": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "17": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "18": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "19": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "20": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 12
+      },
+      "21": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "22": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "23": {
+        "water_litres": 0,
+        "food_meals": 240,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "24": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "25": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "26": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      }
+    }
+  },
+  {
+    "simulation_minute": 52,
+    "trigger_report_id": "R007",
+    "updated_ward": 24,
+    "ward_demand": {
+      "1": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 15,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "2": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "3": {
+        "water_litres": 480,
+        "food_meals": 0,
+        "rescue_cases": 40,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "4": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "5": {
+        "water_litres": 300,
+        "food_meals": 300,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "6": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "7": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "8": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 30,
+        "medical_cases": 0
+      },
+      "9": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "10": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "11": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "12": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "13": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "14": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "15": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "16": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "17": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "18": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "19": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "20": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 12
+      },
+      "21": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "22": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "23": {
+        "water_litres": 0,
+        "food_meals": 240,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "24": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 35,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "25": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "26": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      }
+    }
+  },
+  {
+    "simulation_minute": 65,
+    "trigger_report_id": "R008",
+    "updated_ward": 9,
+    "ward_demand": {
+      "1": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 15,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "2": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "3": {
+        "water_litres": 480,
+        "food_meals": 0,
+        "rescue_cases": 40,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "4": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "5": {
+        "water_litres": 300,
+        "food_meals": 300,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "6": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "7": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "8": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 30,
+        "medical_cases": 0
+      },
+      "9": {
+        "water_litres": 216,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "10": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "11": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "12": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "13": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "14": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "15": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "16": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "17": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "18": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "19": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "20": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 12
+      },
+      "21": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "22": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "23": {
+        "water_litres": 0,
+        "food_meals": 240,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "24": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 35,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "25": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "26": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      }
+    }
+  },
+  {
+    "simulation_minute": 80,
+    "trigger_report_id": "R009",
+    "updated_ward": 21,
+    "ward_demand": {
+      "1": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 15,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "2": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "3": {
+        "water_litres": 480,
+        "food_meals": 0,
+        "rescue_cases": 40,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "4": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "5": {
+        "water_litres": 300,
+        "food_meals": 300,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "6": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "7": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "8": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 30,
+        "medical_cases": 0
+      },
+      "9": {
+        "water_litres": 216,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "10": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "11": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "12": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "13": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "14": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "15": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "16": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "17": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "18": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "19": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "20": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 12
+      },
+      "21": {
+        "water_litres": 0,
+        "food_meals": 120,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 40
+      },
+      "22": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "23": {
+        "water_litres": 0,
+        "food_meals": 240,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "24": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 35,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "25": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "26": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      }
+    }
+  },
+  {
+    "simulation_minute": 95,
+    "trigger_report_id": "R010",
+    "updated_ward": 26,
+    "ward_demand": {
+      "1": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 15,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "2": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "3": {
+        "water_litres": 480,
+        "food_meals": 0,
+        "rescue_cases": 40,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "4": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "5": {
+        "water_litres": 300,
+        "food_meals": 300,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "6": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "7": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "8": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 30,
+        "medical_cases": 0
+      },
+      "9": {
+        "water_litres": 216,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "10": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "11": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "12": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "13": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "14": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "15": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "16": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "17": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "18": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "19": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "20": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 12
+      },
+      "21": {
+        "water_litres": 0,
+        "food_meals": 120,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 40
+      },
+      "22": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "23": {
+        "water_litres": 0,
+        "food_meals": 240,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "24": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 35,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "25": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 0,
+        "shelter_households": 0,
+        "medical_cases": 0
+      },
+      "26": {
+        "water_litres": 0,
+        "food_meals": 0,
+        "rescue_cases": 22,
+        "shelter_households": 22,
+        "medical_cases": 0
+      }
+    }
+  }
+]

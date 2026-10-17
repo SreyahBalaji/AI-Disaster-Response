@@ -1,0 +1,110 @@
+[
+    {
+        "centre_id": "RC01",
+        "ward_no": 3,
+        "features": [
+            0.48,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "target": 1.0
+    },
+    {
+        "centre_id": "RC01",
+        "ward_no": 5,
+        "features": [
+            0.3,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "target": 1.0
+    },
+    {
+        "centre_id": "RC01",
+        "ward_no": 9,
+        "features": [
+            0.216,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "target": 1.0
+    },
+    {
+        "centre_id": "RC02",
+        "ward_no": 3,
+        "features": [
+            0.48,
+            0.4,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "target": 0.833333
+    },
+    {
+        "centre_id": "RC02",
+        "ward_no": 5,
+        "features": [
+            0.3,
+            0.4,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "target": 1.0
+    },
+    {
+        "centre_id": "RC02",
+        "ward_no": 9,
+        "features": [
+            0.216,
+            0.4,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "target": 1.0
+    },
+    {
+        "centre_id": "RC03",
+        "ward_no": 3,
+        "features": [
+            0.48,
+            0.4,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "target": 0.833333
+    },
+    {
+        "centre_id": "RC03",
+        "ward_no": 5,
+        "features": [
+            0.3,
+            0.4,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "target": 1.0
+    },
+    {
+        "centre_id": "RC03",
+        "ward_no": 9,
+        "features": [
+            0.216,
+            0.4,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "target": 1.0
+    }
+]

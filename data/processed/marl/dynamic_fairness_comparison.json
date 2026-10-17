@@ -1,0 +1,68 @@
+[
+  {
+    "scenario": "normal",
+    "policy": "demand_responsive",
+    "allocated_litres": 300,
+    "fairness_gap": 0.0162,
+    "ward_allocations": {
+      "3": 141,
+      "5": 93,
+      "9": 66
+    }
+  },
+  {
+    "scenario": "normal",
+    "policy": "fairness_aware",
+    "allocated_litres": 300,
+    "fairness_gap": 0.0301,
+    "ward_allocations": {
+      "3": 150,
+      "5": 89,
+      "9": 61
+    }
+  },
+  {
+    "scenario": "ward_9_surge",
+    "policy": "demand_responsive",
+    "allocated_litres": 300,
+    "fairness_gap": 0.088,
+    "ward_allocations": {
+      "3": 109,
+      "5": 75,
+      "9": 116
+    }
+  },
+  {
+    "scenario": "ward_9_surge",
+    "policy": "fairness_aware",
+    "allocated_litres": 300,
+    "fairness_gap": 0.0281,
+    "ward_allocations": {
+      "3": 104,
+      "5": 61,
+      "9": 135
+    }
+  },
+  {
+    "scenario": "ward_5_surge",
+    "policy": "demand_responsive",
+    "allocated_litres": 300,
+    "fairness_gap": 0.08,
+    "ward_allocations": {
+      "3": 110,
+      "5": 136,
+      "9": 54
+    }
+  },
+  {
+    "scenario": "ward_5_surge",
+    "policy": "fairness_aware",
+    "allocated_litres": 300,
+    "fairness_gap": 0.0273,
+    "ward_allocations": {
+      "3": 102,
+      "5": 158,
+      "9": 40
+    }
+  }
+]

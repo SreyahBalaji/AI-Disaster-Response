@@ -1,0 +1,156 @@
+[
+    {
+        "report_id": "R001",
+        "text": "Floodwater entered houses in Desam Kadavu. 40 families need drinking water and rescue assistance.",
+        "detected_ward_no": 3,
+        "affected_families": 40,
+        "affected_patients": null,
+        "requested_resources": [
+            "water",
+            "rescue"
+        ],
+        "source_type": "synthetic",
+        "extraction_method": "rule_based_baseline",
+        "event_time": "2026-08-15T06:00:00+00:00",
+        "simulation_minute": 0,
+        "time_type": "synthetic"
+    },
+    {
+        "report_id": "R002",
+        "text": "Heavy flooding reported in Manappuram. 25 families urgently require food and clean water.",
+        "detected_ward_no": 5,
+        "affected_families": 25,
+        "affected_patients": null,
+        "requested_resources": [
+            "water",
+            "food"
+        ],
+        "source_type": "synthetic",
+        "extraction_method": "rule_based_baseline",
+        "event_time": "2026-08-15T06:05:00+00:00",
+        "simulation_minute": 5,
+        "time_type": "synthetic"
+    },
+    {
+        "report_id": "R003",
+        "text": "Residents near Mangalapuzha Seminary report rising water levels. 15 families need evacuation.",
+        "detected_ward_no": 1,
+        "affected_families": 15,
+        "affected_patients": null,
+        "requested_resources": [
+            "rescue"
+        ],
+        "source_type": "synthetic",
+        "extraction_method": "rule_based_baseline",
+        "event_time": "2026-08-15T06:12:00+00:00",
+        "simulation_minute": 12,
+        "time_type": "synthetic"
+    },
+    {
+        "report_id": "R004",
+        "text": "Flooding near Thaluk Hospital has disrupted access. 12 patients require medical assistance.",
+        "detected_ward_no": 20,
+        "affected_families": null,
+        "affected_patients": 12,
+        "requested_resources": [
+            "medicine"
+        ],
+        "source_type": "synthetic",
+        "extraction_method": "rule_based_baseline",
+        "event_time": "2026-08-15T06:20:00+00:00",
+        "simulation_minute": 20,
+        "time_type": "synthetic"
+    },
+    {
+        "report_id": "R005",
+        "text": "Kadathukadavu residents report flooded homes. 30 families need temporary shelter.",
+        "detected_ward_no": 8,
+        "affected_families": 30,
+        "affected_patients": null,
+        "requested_resources": [
+            "shelter"
+        ],
+        "source_type": "synthetic",
+        "extraction_method": "rule_based_baseline",
+        "event_time": "2026-08-15T06:28:00+00:00",
+        "simulation_minute": 28,
+        "time_type": "synthetic"
+    },
+    {
+        "report_id": "R006",
+        "text": "Floodwater is rising near Market ward. 20 families need food supplies.",
+        "detected_ward_no": 23,
+        "affected_families": 20,
+        "affected_patients": null,
+        "requested_resources": [
+            "food"
+        ],
+        "source_type": "synthetic",
+        "extraction_method": "rule_based_baseline",
+        "event_time": "2026-08-15T06:40:00+00:00",
+        "simulation_minute": 40,
+        "time_type": "synthetic"
+    },
+    {
+        "report_id": "R007",
+        "text": "Heavy rain and flooding in Priyadarsini. 35 families request rescue boats.",
+        "detected_ward_no": 24,
+        "affected_families": 35,
+        "affected_patients": null,
+        "requested_resources": [
+            "rescue"
+        ],
+        "source_type": "synthetic",
+        "extraction_method": "rule_based_baseline",
+        "event_time": "2026-08-15T06:52:00+00:00",
+        "simulation_minute": 52,
+        "time_type": "synthetic"
+    },
+    {
+        "report_id": "R008",
+        "text": "Palace ward reports water entering residential streets. 18 families need drinking water.",
+        "detected_ward_no": 9,
+        "affected_families": 18,
+        "affected_patients": null,
+        "requested_resources": [
+            "water"
+        ],
+        "source_type": "synthetic",
+        "extraction_method": "rule_based_baseline",
+        "event_time": "2026-08-15T07:05:00+00:00",
+        "simulation_minute": 65,
+        "time_type": "synthetic"
+    },
+    {
+        "report_id": "R009",
+        "text": "Sastha Temple area is affected by flooding. 10 families need medicine and food.",
+        "detected_ward_no": 21,
+        "affected_families": 10,
+        "affected_patients": null,
+        "requested_resources": [
+            "food",
+            "medicine"
+        ],
+        "source_type": "synthetic",
+        "extraction_method": "rule_based_baseline",
+        "event_time": "2026-08-15T07:20:00+00:00",
+        "simulation_minute": 80,
+        "time_type": "synthetic"
+    },
+    {
+        "report_id": "R010",
+        "text": "Flooding reported in Thandikkal. 22 families need evacuation and shelter.",
+        "detected_ward_no": 26,
+        "affected_families": 22,
+        "affected_patients": null,
+        "requested_resources": [
+            "rescue",
+            "shelter"
+        ],
+        "source_type": "synthetic",
+        "extraction_method": "rule_based_baseline",
+        "event_time": "2026-08-15T07:35:00+00:00",
+        "simulation_minute": 95,
+        "time_type": "synthetic"
+    }
+]
