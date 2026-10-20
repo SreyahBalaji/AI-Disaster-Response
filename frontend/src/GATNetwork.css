@@ -1,0 +1,174 @@
+/* Phase 19 / Step 3 — High-contrast network visualisation. */
+.gat-network-section {
+  width: 100%;
+  margin: 0 0 22px;
+  color: #f5fbff;
+  font-family: inherit;
+}
+.gat-network-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 17px;
+}
+.gat-network-heading h2 {
+  margin: 4px 0 0;
+  font-size: clamp(19px, 1.65vw, 26px);
+  line-height: 1.2;
+  color: #f9fcff;
+  letter-spacing: -.04em;
+}
+.gat-eyebrow {
+  color: #58cfff;
+  font-size: 11px;
+  letter-spacing: .16em;
+  font-weight: 850;
+}
+.gat-counts {display:flex;gap:9px;flex-wrap:wrap}
+.gat-counts span {
+  padding: 9px 12px;
+  border-radius: 999px;
+  background: #102d50;
+  border: 1px solid #285580;
+  color: #c7e4fc;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.gat-counts strong {color:#fff;font-weight:850}
+.gat-network-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2.4fr) minmax(300px, 1fr);
+  align-items: stretch;
+  gap: 17px;
+}
+.gat-canvas-card,.gat-details {
+  min-width: 0;
+  border: 1px solid #26527c;
+  border-radius: 18px;
+  background: #081b35;
+  box-shadow: 0 14px 42px #00000022;
+  overflow: hidden;
+}
+.gat-canvas-card {display:flex;flex-direction:column}
+.gat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  padding: 16px 18px;
+  background: #102b4b;
+  border-bottom: 1px solid #234d79;
+}
+.gat-legend,.gat-controls {display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.gat-legend span {display:inline-flex;align-items:center;gap:7px;color:#e0f1ff;font-size:11px;font-weight:650}
+.gat-legend-dot {display:inline-block;width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.gat-legend-dot.high {background:#ff647b}
+.gat-legend-dot.moderate {background:#ffbd60}
+.gat-legend-dot.low {background:#4ca6ff}
+.gat-legend-dot.centre {background:#2eeacb;border-radius:3px}
+.gat-controls button,.gat-ward-select,.gat-focus-row button {
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid #386b9b;
+  border-radius: 9px;
+  background: #133c65;
+  color: #f5fbff;
+  font-weight: 750;
+  font-size: 12px;
+  cursor: pointer;
+}
+.gat-controls button:hover,.gat-focus-row button:hover {background:#1a5589;border-color:#58b9ff}
+.gat-controls button:focus-visible,.gat-focus-row button:focus-visible,.gat-ward-select:focus-visible,.gat-neighbors button:focus-visible {outline:2px solid #77e8ff;outline-offset:2px}
+.gat-controls button[aria-pressed="true"] {border-color:#54c9f4}
+.gat-controls button[aria-label^="Zoom"] {min-width:37px;font-size:20px;padding:0 6px}
+.gat-ward-select {min-width:115px;max-width:175px;outline:none;background:#091e39}
+.gat-ward-select option {color:#fff;background:#091e39}
+.gat-focus-row {display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:11px 17px;background:#0a2240;border-bottom:1px solid #24446a}
+.gat-focus-row>span {color:#a6cde9;font-size:11px;font-weight:750;margin-right:5px}
+.gat-focus-row button {height:29px;padding:0 12px;font-size:11px;color:#c5e3f8;background:transparent;border-color:#2a537d}
+.gat-focus-row button.active {background:#155b96;color:#fff;border-color:#48b9ff;box-shadow:inset 0 0 0 1px #59beff25}
+.gat-viewport {min-height:560px;flex:1;background:radial-gradient(ellipse at 50% 48%,#102f54 0%,#06162f 65%,#030d20 100%);overflow:hidden}
+.gat-svg {display:block;width:100%;height:100%;min-height:560px;aspect-ratio:1100/760;overflow:visible;touch-action:none}
+.gat-node {cursor:grab;touch-action:none;user-select:none}
+.gat-node:active {cursor:grabbing}
+.gat-node.muted {opacity:.36}
+.gat-ward-node {transition:opacity .15s}
+.gat-centre-node {filter:drop-shadow(0 0 10px #14dfc950)}
+.gat-edge {pointer-events:none}
+.gat-ward-number {font-size:19px!important;font-weight:900!important;fill:#fff!important;paint-order:stroke fill!important;stroke:#10243e!important;stroke-width:2px!important;stroke-linejoin:round;pointer-events:none;letter-spacing:-.02em}
+.gat-node-label {pointer-events:none}
+.gat-node-label rect {fill:#061d37!important;stroke:#538ec2!important;stroke-width:1.3!important}
+.gat-label-text {font-size:15px!important;font-weight:850!important;fill:#ffffff!important;stroke:none!important;letter-spacing:.015em}
+.gat-label-text.centre {fill:#a6fff2!important;font-size:15px!important}
+.gat-canvas-note {display:flex;gap:15px;flex-wrap:wrap;padding:13px 18px;background:#0c2544;border-top:1px solid #214b77;color:#c8e6fb;font-size:11px;line-height:1.4}
+.gat-canvas-note b {color:#fff}
+.gat-details {padding:23px 21px;color:#f7fbff}
+.gat-profile-top {display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap;margin:14px 0 19px}
+.gat-profile-top h3 {margin:0 0 6px;color:#fff;font-size:30px;font-weight:900;letter-spacing:-.04em;line-height:1.1}
+.gat-profile-top p {margin:0;font-size:12px;color:#bedaf2;text-transform:uppercase;font-weight:700;letter-spacing:.035em;line-height:1.5}
+.gat-priority {display:inline-block;border:1px solid transparent;border-radius:99px;padding:7px 10px;font-size:10px;font-weight:850;white-space:nowrap}
+.gat-priority.centre {background:#064944;color:#69ffdb;border-color:#238e83}
+.gat-score-card {padding:15px 16px;background:linear-gradient(120deg,#14375a,#0b2a50);border:1px solid #30608f;border-radius:12px}
+.gat-score-card>span {display:block;font-size:12px;font-weight:700;color:#c2dff4}
+.gat-score-card>strong {display:block;font-size:30px;font-weight:850;letter-spacing:-.03em;margin:6px 0;color:#fff;font-variant-numeric:tabular-nums}
+.gat-score-track {height:7px;border-radius:99px;background:#2c4b68;overflow:hidden}
+.gat-score-track>div {height:100%;border-radius:99px}
+.gat-quick-stats {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:13px 0 23px}
+.gat-quick-stats>div {padding:13px 10px;background:#102e50;border-radius:10px;border:1px solid #28527c;min-width:0}
+.gat-quick-stats span,.gat-quick-stats strong {display:block}
+.gat-quick-stats span {font-size:11px;color:#b4d5eb;margin-bottom:7px}
+.gat-quick-stats strong {color:#fff;font-size:17px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.gat-details-heading {display:flex;align-items:center;justify-content:space-between;gap:9px;margin:22px 0 12px;font-size:13px;font-weight:850;color:#f5fbff}
+.gat-details-heading>span {color:#7ccfff;font-size:11px;font-weight:700}
+.gat-neighbors {display:flex;gap:8px;flex-wrap:wrap}
+.gat-neighbors button {min-width:40px;padding:8px 10px;border-radius:8px;background:#133e67;border:1px solid #2e6593;color:#e8f8ff;font-weight:850;font-size:12px;cursor:pointer}
+.gat-neighbors button:hover {background:#1b6699;border-color:#6ac9ff}
+.gat-neighbors button.gat-centre-pill {color:#64ffe6;border-color:#288d95}
+.gat-feature-bars {display:flex;flex-direction:column;gap:10px}
+.gat-feature-item {display:grid;grid-template-columns:27px minmax(0,1fr) 48px;align-items:center;gap:9px;font-size:11px;color:#c6e1f5}
+.gat-feature-item span {font-weight:750;color:#c7e6fa}
+.gat-feature-item strong {font-variant-numeric:tabular-nums;text-align:right;color:#fff}
+.gat-feature-rail {height:9px;border-radius:99px;overflow:hidden;background:#233f5e}
+.gat-feature-fill {height:100%;background:linear-gradient(90deg,#0c70ed,#56d8ff);border-radius:99px;min-width:2px}
+.gat-feature-fill.negative {background:linear-gradient(90deg,#d86c91,#ffb571)}
+.gat-host-link {display:flex;justify-content:space-between;align-items:center;width:100%;background:#12385c;color:#d3f4ff;border:1px solid #316c98;padding:14px;border-radius:10px;font-weight:800;font-size:13px;cursor:pointer}
+.gat-host-link:hover {background:#19517e}
+.gat-inventory-list {display:flex;flex-direction:column;gap:0}
+.gat-inventory-row {display:flex;justify-content:space-between;gap:10px;padding:13px 0;border-bottom:1px solid #2b4764;color:#c9e5f6;font-size:12px}
+.gat-inventory-row strong {color:#fff;font-size:14px;font-variant-numeric:tabular-nums;text-align:right}
+.gat-inventory-row strong small {font-size:11px;color:#a9cce3;font-weight:500}
+.gat-centre-context {font-size:11px;line-height:1.6;color:#accbe1;margin-top:16px}
+.gat-error {padding:17px;background:#3b1734;color:#ffdce8;border:1px solid #a7476d;border-radius:12px}
+.gat-loading,.gat-empty {font-size:13px;color:#b8d7ec;padding:20px}
+/* Theme stylesheet is imported after this component. Specificity keeps
+   ward labels bright and the canvas deep blue despite theme overrides. */
+.cc-body .gat-network-section {color:#f7fbff!important}
+.cc-body .gat-network-section .gat-canvas-card,.cc-body .gat-network-section .gat-details {background:#081c35!important;border-color:#285581!important}
+.cc-body .gat-network-section .gat-toolbar {background:#102b4b!important;border-color:#285581!important}
+.cc-body .gat-network-section .gat-canvas-note {background:#0c2544!important;color:#c8e6fb!important;border-color:#285581!important}
+.cc-body .gat-network-section .gat-svg {background:radial-gradient(ellipse at 50% 48%,#123760 0%,#06162f 66%,#030d20 100%)!important}
+.cc-body .gat-network-section .gat-svg .gat-ward-number {font-size:19px!important;fill:#fff!important;stroke:#10243e!important;stroke-width:2px!important}
+.cc-body .gat-network-section .gat-svg .gat-label-text {font-size:15px!important;fill:#fff!important;stroke:none!important}
+.cc-body .gat-network-section .gat-svg .gat-label-text.centre {fill:#aeffef!important}
+.cc-body .gat-network-section .gat-legend span,.cc-body .gat-network-section .gat-quick-stats span,.cc-body .gat-network-section .gat-feature-item span {color:#d5eafb!important}
+.cc-body .gat-network-section .gat-controls button,.cc-body .gat-network-section .gat-neighbors button {background:#133c65!important;border-color:#386b9b!important;color:#f5fbff!important}
+.cc-body .gat-network-section .gat-controls button:hover,.cc-body .gat-network-section .gat-neighbors button:hover {background:#1b568a!important}
+.cc-body .gat-network-section .gat-ward-select {color:#f5fbff!important;background:#091e39!important;border-color:#386b9b!important}
+.cc-body .gat-network-section .gat-profile-top p,.cc-body .gat-network-section .gat-canvas-note,.cc-body .gat-network-section .gat-inventory-row {color:#c7e4f5!important}
+@media (max-width:1240px) {.gat-network-layout{grid-template-columns:minmax(0,1fr) 310px}}
+@media (max-width:980px) {.gat-network-layout{grid-template-columns:1fr}.gat-details{padding:20px}.gat-svg{min-height:480px}.gat-viewport{min-height:480px}}
+@media (max-width:620px) {
+  .gat-network-heading {align-items:flex-start}
+  .gat-canvas-card {border-radius:12px}
+  .gat-toolbar {padding:12px}
+  .gat-focus-row {padding:10px}
+  .gat-controls {width:100%}
+  .gat-ward-select {flex:1}
+  .gat-svg {min-height:390px}
+  .gat-viewport {min-height:390px}
+  .gat-canvas-note {padding:10px 12px;gap:6px}
+  .gat-feature-item {grid-template-columns:25px minmax(0,1fr) 49px}
+}

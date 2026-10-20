@@ -1,0 +1,38 @@
+{
+  "training_scenarios": 62,
+  "validation_scenarios": 13,
+  "test_scenarios": 15,
+  "best_epoch": 1,
+  "synthetic_data": true,
+  "results": {
+    "gat_normalized_mse": 0.06648676842451096,
+    "persistence_normalized_mse": 0.06415241956710815,
+    "gat_original_units_mae": 11.694293975830078,
+    "persistence_original_units_mae": 3.18464732170105,
+    "changed_demand_cells": 632,
+    "gat_changed_cells_mae": 146.90061950683594,
+    "persistence_changed_cells_mae": 157.21676635742188,
+    "resources": {
+      "Water": {
+        "gat_mae": 30.4142,
+        "persistence_mae": 7.9128
+      },
+      "Food": {
+        "gat_mae": 21.6976,
+        "persistence_mae": 6.2665
+      },
+      "Rescue": {
+        "gat_mae": 3.0219,
+        "persistence_mae": 0.8551
+      },
+      "Shelter": {
+        "gat_mae": 1.6908,
+        "persistence_mae": 0.4949
+      },
+      "Medical": {
+        "gat_mae": 1.647,
+        "persistence_mae": 0.3939
+      }
+    }
+  }
+}

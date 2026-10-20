@@ -1,0 +1,800 @@
+{
+  "training_seeds": [
+    7,
+    19,
+    42
+  ],
+  "episodes_per_model": 120,
+  "scenarios": 12,
+  "summary": {
+    "gat": {
+      "scenarios": 18,
+      "mean_minimum_coverage": 35.79,
+      "mean_average_coverage": 91.42,
+      "mean_zero_coverage_items": 0.33
+    },
+    "no_gat": {
+      "scenarios": 18,
+      "mean_minimum_coverage": 21.68,
+      "mean_average_coverage": 88.36,
+      "mean_zero_coverage_items": 0.39
+    }
+  },
+  "per_seed": [
+    {
+      "training_seed": 7,
+      "model": "gat",
+      "scenarios": 6,
+      "mean_minimum_coverage": 0.0,
+      "mean_average_coverage": 88.06,
+      "mean_zero_coverage_items": 1
+    },
+    {
+      "training_seed": 7,
+      "model": "no_gat",
+      "scenarios": 6,
+      "mean_minimum_coverage": 53.71,
+      "mean_average_coverage": 93.08,
+      "mean_zero_coverage_items": 0
+    },
+    {
+      "training_seed": 19,
+      "model": "gat",
+      "scenarios": 6,
+      "mean_minimum_coverage": 53.66,
+      "mean_average_coverage": 93.11,
+      "mean_zero_coverage_items": 0
+    },
+    {
+      "training_seed": 19,
+      "model": "no_gat",
+      "scenarios": 6,
+      "mean_minimum_coverage": 11.32,
+      "mean_average_coverage": 89.43,
+      "mean_zero_coverage_items": 0.17
+    },
+    {
+      "training_seed": 42,
+      "model": "gat",
+      "scenarios": 6,
+      "mean_minimum_coverage": 53.71,
+      "mean_average_coverage": 93.08,
+      "mean_zero_coverage_items": 0
+    },
+    {
+      "training_seed": 42,
+      "model": "no_gat",
+      "scenarios": 6,
+      "mean_minimum_coverage": 0.0,
+      "mean_average_coverage": 82.58,
+      "mean_zero_coverage_items": 1
+    }
+  ],
+  "results": [
+    {
+      "scenario": "S7-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 87.5,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 87.5,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 88.07740324594258,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 88.88888888888889,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 88.88888888888889,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 87.5,
+      "zero_coverage_items": 1,
+      "training_seed": 7,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 79.40876656472987,
+      "average_coverage": 96.77624872579001,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 65.47619047619048,
+      "average_coverage": 93.54800882617198,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 35.0547730829421,
+      "average_coverage": 88.72514174151286,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 26.360544217687075,
+      "average_coverage": 89.13465971183795,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 41.01633393829401,
+      "average_coverage": 93.44625932647712,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 74.95652173913044,
+      "average_coverage": 96.86956521739131,
+      "zero_coverage_items": 0,
+      "training_seed": 7,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 79.40876656472987,
+      "average_coverage": 96.77624872579001,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 65.47619047619048,
+      "average_coverage": 93.54800882617198,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 35.0547730829421,
+      "average_coverage": 88.72514174151286,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 26.020408163265305,
+      "average_coverage": 89.2688654409132,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 41.01633393829401,
+      "average_coverage": 93.44625932647712,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 74.95652173913044,
+      "average_coverage": 96.86956521739131,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 13.245033112582782,
+      "average_coverage": 82.64900662251655,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 14.271151885830784,
+      "average_coverage": 89.28389398572885,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 8.04289544235925,
+      "average_coverage": 81.60857908847186,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 15.538290788013319,
+      "average_coverage": 89.44228634850167,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 10.81081081081081,
+      "average_coverage": 82.16216216216216,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 88.14047207829591,
+      "zero_coverage_items": 1,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 13.123359580052494,
+      "average_coverage": 82.6246719160105,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 5.1020408163265305,
+      "average_coverage": 89.45578231292517,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 12.76595744680851,
+      "average_coverage": 82.55319148936171,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 19.96370235934664,
+      "average_coverage": 91.1070780399274,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 13.513513513513514,
+      "average_coverage": 82.70270270270271,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 13.043478260869565,
+      "average_coverage": 89.1304347826087,
+      "zero_coverage_items": 0,
+      "training_seed": 19,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 79.40876656472987,
+      "average_coverage": 96.77624872579001,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 65.47619047619048,
+      "average_coverage": 93.54800882617198,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 35.0547730829421,
+      "average_coverage": 88.72514174151286,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S19-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 26.360544217687075,
+      "average_coverage": 89.13465971183795,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 41.01633393829401,
+      "average_coverage": 93.44625932647712,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S41-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 74.95652173913044,
+      "average_coverage": 96.86956521739131,
+      "zero_coverage_items": 0,
+      "training_seed": 42,
+      "model": "gat"
+    },
+    {
+      "scenario": "S7-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 84.92609582059123,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S7-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 85.36348501664817,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 79.45053034254911,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S19-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 79.0295782883384,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 82.335148215366,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 0.0,
+      "average_coverage": 80.0,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    },
+    {
+      "scenario": "S41-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 84.36956521739131,
+      "zero_coverage_items": 1,
+      "training_seed": 42,
+      "model": "no_gat"
+    }
+  ],
+  "limitations": [
+    "GAT embeddings are fixed.",
+    "All scenarios are simulated.",
+    "These are preliminary experiments."
+  ]
+}

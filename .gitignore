@@ -1,49 +1,26 @@
-# ==============================
 # Python
-# ==============================
 .venv/
-venv/
 __pycache__/
-*.py[cod]
-*.egg-info/
+*.pyc
 
-# ==============================
-# IDE / OS
-# ==============================
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+# Frontend
+frontend/node_modules/
+frontend/dist/
 
-# ==============================
-# Environment / Secrets
-# ==============================
+# Secrets
 .env
 .env.*
+!.env.example
+*.pem
 *.key
 
-# ==============================
-# Raw datasets
-# Large/original datasets should
-# not be stored in Git
-# ==============================
-data/raw/
+# Local simulation state
+data/processed/rolling/
 
-# ==============================
-# Temporary files
-# ==============================
-*.tmp
-*.log
+# Large generated ML checkpoints
+*.pth
+*.pt
 
-# ==============================
-# Model checkpoints
-# ==============================
-models/*.pt
-models/*.pth
-models/*.ckpt
-
-# ==============================
-# Keep processed research data
-# ==============================
-!data/processed/
-!data/processed/*.csv
+# Local archives and temporary files
+frontend_redesign.zip
+phase17_code_review.txt

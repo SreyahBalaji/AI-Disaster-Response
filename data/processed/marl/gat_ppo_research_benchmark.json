@@ -1,0 +1,906 @@
+{
+  "description": "Exploratory 12-scenario comparison with three scenario-generation seeds. Model training seed is unchanged.",
+  "scenario_count": 12,
+  "summary": {
+    "STATIC": {
+      "baseline": {
+        "scenarios": 6,
+        "mean_minimum_coverage": 100.0,
+        "mean_average_coverage": 100.0,
+        "mean_zero_coverage_items": 0,
+        "mean_unmet_water_litres": 0
+      },
+      "gat_ppo_v1": {
+        "scenarios": 6,
+        "mean_minimum_coverage": 100.0,
+        "mean_average_coverage": 100.0,
+        "mean_zero_coverage_items": 0,
+        "mean_unmet_water_litres": 0
+      },
+      "gat_ppo_v2": {
+        "scenarios": 6,
+        "mean_minimum_coverage": 100.0,
+        "mean_average_coverage": 100.0,
+        "mean_zero_coverage_items": 0,
+        "mean_unmet_water_litres": 0
+      }
+    },
+    "DYNAMIC": {
+      "baseline": {
+        "scenarios": 6,
+        "mean_minimum_coverage": 77.64,
+        "mean_average_coverage": 92.06,
+        "mean_zero_coverage_items": 0,
+        "mean_unmet_water_litres": 306.17
+      },
+      "gat_ppo_v1": {
+        "scenarios": 6,
+        "mean_minimum_coverage": 0.0,
+        "mean_average_coverage": 80.27,
+        "mean_zero_coverage_items": 1.5,
+        "mean_unmet_water_litres": 402.83
+      },
+      "gat_ppo_v2": {
+        "scenarios": 6,
+        "mean_minimum_coverage": 35.05,
+        "mean_average_coverage": 90.15,
+        "mean_zero_coverage_items": 0.17,
+        "mean_unmet_water_litres": 303.17
+      }
+    }
+  },
+  "results": [
+    {
+      "scenario": "S7-1",
+      "dynamic": false,
+      "method": "baseline",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 64,
+      "shortages": []
+    },
+    {
+      "scenario": "S7-1",
+      "dynamic": false,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 64,
+      "shortages": []
+    },
+    {
+      "scenario": "S7-1",
+      "dynamic": false,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 64,
+      "shortages": []
+    },
+    {
+      "scenario": "S7-2",
+      "dynamic": true,
+      "method": "baseline",
+      "minimum_coverage": 84.61,
+      "average_coverage": 95.53,
+      "fully_satisfied_items": 4,
+      "zero_coverage_items": 0,
+      "total_demand_items": 8,
+      "unmet_water_litres": 202,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 3,
+          "resource": "water_litres",
+          "unmet": 151,
+          "coverage_percent": 84.61
+        },
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 26,
+          "coverage_percent": 88.98
+        },
+        {
+          "ward": 5,
+          "resource": "food_meals",
+          "unmet": 2,
+          "coverage_percent": 99.39
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 25,
+          "coverage_percent": 91.23
+        }
+      ]
+    },
+    {
+      "scenario": "S7-2",
+      "dynamic": true,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 0.0,
+      "average_coverage": 85.92,
+      "fully_satisfied_items": 6,
+      "zero_coverage_items": 1,
+      "total_demand_items": 8,
+      "unmet_water_litres": 272,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 236,
+          "coverage_percent": 0.0
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 36,
+          "coverage_percent": 87.37
+        }
+      ]
+    },
+    {
+      "scenario": "S7-2",
+      "dynamic": true,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 29.12,
+      "average_coverage": 90.68,
+      "fully_satisfied_items": 6,
+      "zero_coverage_items": 0,
+      "total_demand_items": 8,
+      "unmet_water_litres": 202,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 5,
+          "resource": "food_meals",
+          "unmet": 12,
+          "coverage_percent": 96.33
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 202,
+          "coverage_percent": 29.12
+        }
+      ]
+    },
+    {
+      "scenario": "S7-3",
+      "dynamic": false,
+      "method": "baseline",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 63,
+      "shortages": []
+    },
+    {
+      "scenario": "S7-3",
+      "dynamic": false,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 63,
+      "shortages": []
+    },
+    {
+      "scenario": "S7-3",
+      "dynamic": false,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 63,
+      "shortages": []
+    },
+    {
+      "scenario": "S7-4",
+      "dynamic": true,
+      "method": "baseline",
+      "minimum_coverage": 86.57,
+      "average_coverage": 92.14,
+      "fully_satisfied_items": 0,
+      "zero_coverage_items": 0,
+      "total_demand_items": 8,
+      "unmet_water_litres": 174,
+      "unmet_rescue_cases": 4,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 3,
+          "resource": "water_litres",
+          "unmet": 121,
+          "coverage_percent": 86.57
+        },
+        {
+          "ward": 3,
+          "resource": "food_meals",
+          "unmet": 7,
+          "coverage_percent": 94.26
+        },
+        {
+          "ward": 3,
+          "resource": "rescue_cases",
+          "unmet": 4,
+          "coverage_percent": 92.31
+        },
+        {
+          "ward": 3,
+          "resource": "shelter_households",
+          "unmet": 1,
+          "coverage_percent": 96.3
+        },
+        {
+          "ward": 3,
+          "resource": "medical_cases",
+          "unmet": 1,
+          "coverage_percent": 92.31
+        },
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 37,
+          "coverage_percent": 88.69
+        },
+        {
+          "ward": 5,
+          "resource": "food_meals",
+          "unmet": 21,
+          "coverage_percent": 93.75
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 16,
+          "coverage_percent": 92.92
+        }
+      ]
+    },
+    {
+      "scenario": "S7-4",
+      "dynamic": true,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 0.0,
+      "average_coverage": 83.3,
+      "fully_satisfied_items": 6,
+      "zero_coverage_items": 1,
+      "total_demand_items": 8,
+      "unmet_water_litres": 403,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 327,
+          "coverage_percent": 0.0
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 76,
+          "coverage_percent": 66.37
+        }
+      ]
+    },
+    {
+      "scenario": "S7-4",
+      "dynamic": true,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 30.97,
+      "average_coverage": 87.43,
+      "fully_satisfied_items": 6,
+      "zero_coverage_items": 0,
+      "total_demand_items": 8,
+      "unmet_water_litres": 156,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 5,
+          "resource": "food_meals",
+          "unmet": 106,
+          "coverage_percent": 68.45
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 156,
+          "coverage_percent": 30.97
+        }
+      ]
+    },
+    {
+      "scenario": "S19-1",
+      "dynamic": false,
+      "method": "baseline",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 77,
+      "shortages": []
+    },
+    {
+      "scenario": "S19-1",
+      "dynamic": false,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 77,
+      "shortages": []
+    },
+    {
+      "scenario": "S19-1",
+      "dynamic": false,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 77,
+      "shortages": []
+    },
+    {
+      "scenario": "S19-2",
+      "dynamic": true,
+      "method": "baseline",
+      "minimum_coverage": 70.42,
+      "average_coverage": 87.18,
+      "fully_satisfied_items": 3,
+      "zero_coverage_items": 0,
+      "total_demand_items": 9,
+      "unmet_water_litres": 415,
+      "unmet_rescue_cases": 9,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 3,
+          "resource": "water_litres",
+          "unmet": 189,
+          "coverage_percent": 70.42
+        },
+        {
+          "ward": 3,
+          "resource": "rescue_cases",
+          "unmet": 9,
+          "coverage_percent": 82.0
+        },
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 84,
+          "coverage_percent": 76.92
+        },
+        {
+          "ward": 5,
+          "resource": "food_meals",
+          "unmet": 51,
+          "coverage_percent": 86.79
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 142,
+          "coverage_percent": 80.06
+        },
+        {
+          "ward": 9,
+          "resource": "food_meals",
+          "unmet": 15,
+          "coverage_percent": 88.46
+        }
+      ]
+    },
+    {
+      "scenario": "S19-2",
+      "dynamic": true,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 0.0,
+      "average_coverage": 74.16,
+      "fully_satisfied_items": 6,
+      "zero_coverage_items": 2,
+      "total_demand_items": 9,
+      "unmet_water_litres": 596,
+      "unmet_rescue_cases": 7,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 364,
+          "coverage_percent": 0.0
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 232,
+          "coverage_percent": 67.42
+        },
+        {
+          "ward": 9,
+          "resource": "rescue_cases",
+          "unmet": 7,
+          "coverage_percent": 0.0
+        }
+      ]
+    },
+    {
+      "scenario": "S19-2",
+      "dynamic": true,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 41.71,
+      "average_coverage": 89.32,
+      "fully_satisfied_items": 7,
+      "zero_coverage_items": 0,
+      "total_demand_items": 9,
+      "unmet_water_litres": 415,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 5,
+          "resource": "food_meals",
+          "unmet": 146,
+          "coverage_percent": 62.18
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 415,
+          "coverage_percent": 41.71
+        }
+      ]
+    },
+    {
+      "scenario": "S19-3",
+      "dynamic": false,
+      "method": "baseline",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 62,
+      "shortages": []
+    },
+    {
+      "scenario": "S19-3",
+      "dynamic": false,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 62,
+      "shortages": []
+    },
+    {
+      "scenario": "S19-3",
+      "dynamic": false,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 62,
+      "shortages": []
+    },
+    {
+      "scenario": "S19-4",
+      "dynamic": true,
+      "method": "baseline",
+      "minimum_coverage": 68.03,
+      "average_coverage": 89.99,
+      "fully_satisfied_items": 4,
+      "zero_coverage_items": 0,
+      "total_demand_items": 9,
+      "unmet_water_litres": 433,
+      "unmet_rescue_cases": 3,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 3,
+          "resource": "water_litres",
+          "unmet": 188,
+          "coverage_percent": 68.03
+        },
+        {
+          "ward": 3,
+          "resource": "rescue_cases",
+          "unmet": 3,
+          "coverage_percent": 94.34
+        },
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 67,
+          "coverage_percent": 74.91
+        },
+        {
+          "ward": 5,
+          "resource": "food_meals",
+          "unmet": 23,
+          "coverage_percent": 92.88
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 178,
+          "coverage_percent": 79.73
+        }
+      ]
+    },
+    {
+      "scenario": "S19-4",
+      "dynamic": true,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 0.0,
+      "average_coverage": 74.54,
+      "fully_satisfied_items": 6,
+      "zero_coverage_items": 2,
+      "total_demand_items": 9,
+      "unmet_water_litres": 523,
+      "unmet_rescue_cases": 4,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 267,
+          "coverage_percent": 0.0
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 256,
+          "coverage_percent": 70.84
+        },
+        {
+          "ward": 9,
+          "resource": "rescue_cases",
+          "unmet": 4,
+          "coverage_percent": 0.0
+        }
+      ]
+    },
+    {
+      "scenario": "S19-4",
+      "dynamic": true,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 50.68,
+      "average_coverage": 92.01,
+      "fully_satisfied_items": 7,
+      "zero_coverage_items": 0,
+      "total_demand_items": 9,
+      "unmet_water_litres": 433,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 5,
+          "resource": "food_meals",
+          "unmet": 73,
+          "coverage_percent": 77.4
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 433,
+          "coverage_percent": 50.68
+        }
+      ]
+    },
+    {
+      "scenario": "S41-1",
+      "dynamic": false,
+      "method": "baseline",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 71,
+      "shortages": []
+    },
+    {
+      "scenario": "S41-1",
+      "dynamic": false,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 71,
+      "shortages": []
+    },
+    {
+      "scenario": "S41-1",
+      "dynamic": false,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 71,
+      "shortages": []
+    },
+    {
+      "scenario": "S41-2",
+      "dynamic": true,
+      "method": "baseline",
+      "minimum_coverage": 76.23,
+      "average_coverage": 93.14,
+      "fully_satisfied_items": 6,
+      "zero_coverage_items": 0,
+      "total_demand_items": 9,
+      "unmet_water_litres": 325,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 3,
+          "resource": "water_litres",
+          "unmet": 131,
+          "coverage_percent": 76.23
+        },
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 64,
+          "coverage_percent": 78.95
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 130,
+          "coverage_percent": 83.12
+        }
+      ]
+    },
+    {
+      "scenario": "S41-2",
+      "dynamic": true,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 0.0,
+      "average_coverage": 77.33,
+      "fully_satisfied_items": 6,
+      "zero_coverage_items": 2,
+      "total_demand_items": 9,
+      "unmet_water_litres": 335,
+      "unmet_rescue_cases": 6,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 304,
+          "coverage_percent": 0.0
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 31,
+          "coverage_percent": 95.97
+        },
+        {
+          "ward": 9,
+          "resource": "rescue_cases",
+          "unmet": 6,
+          "coverage_percent": 0.0
+        }
+      ]
+    },
+    {
+      "scenario": "S41-2",
+      "dynamic": true,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 57.79,
+      "average_coverage": 95.31,
+      "fully_satisfied_items": 8,
+      "zero_coverage_items": 0,
+      "total_demand_items": 9,
+      "unmet_water_litres": 325,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 325,
+          "coverage_percent": 57.79
+        }
+      ]
+    },
+    {
+      "scenario": "S41-3",
+      "dynamic": false,
+      "method": "baseline",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 70,
+      "shortages": []
+    },
+    {
+      "scenario": "S41-3",
+      "dynamic": false,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 70,
+      "shortages": []
+    },
+    {
+      "scenario": "S41-3",
+      "dynamic": false,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 5,
+      "unmet_water_litres": 0,
+      "unmet_rescue_cases": 0,
+      "steps": 70,
+      "shortages": []
+    },
+    {
+      "scenario": "S41-4",
+      "dynamic": true,
+      "method": "baseline",
+      "minimum_coverage": 80.0,
+      "average_coverage": 94.39,
+      "fully_satisfied_items": 5,
+      "zero_coverage_items": 0,
+      "total_demand_items": 8,
+      "unmet_water_litres": 288,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 3,
+          "resource": "water_litres",
+          "unmet": 230,
+          "coverage_percent": 80.0
+        },
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 43,
+          "coverage_percent": 84.25
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 15,
+          "coverage_percent": 90.91
+        }
+      ]
+    },
+    {
+      "scenario": "S41-4",
+      "dynamic": true,
+      "method": "gat_ppo_v1",
+      "minimum_coverage": 0.0,
+      "average_coverage": 86.36,
+      "fully_satisfied_items": 6,
+      "zero_coverage_items": 1,
+      "total_demand_items": 8,
+      "unmet_water_litres": 288,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 5,
+          "resource": "water_litres",
+          "unmet": 273,
+          "coverage_percent": 0.0
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 15,
+          "coverage_percent": 90.91
+        }
+      ]
+    },
+    {
+      "scenario": "S41-4",
+      "dynamic": true,
+      "method": "gat_ppo_v2",
+      "minimum_coverage": 0.0,
+      "average_coverage": 86.16,
+      "fully_satisfied_items": 6,
+      "zero_coverage_items": 1,
+      "total_demand_items": 8,
+      "unmet_water_litres": 288,
+      "unmet_rescue_cases": 0,
+      "steps": 100,
+      "shortages": [
+        {
+          "ward": 3,
+          "resource": "water_litres",
+          "unmet": 123,
+          "coverage_percent": 89.3
+        },
+        {
+          "ward": 9,
+          "resource": "water_litres",
+          "unmet": 165,
+          "coverage_percent": 0.0
+        }
+      ]
+    }
+  ]
+}

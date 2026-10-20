@@ -1,0 +1,89 @@
+{
+  "model": "Federated GAT-Informed Multi-Resource PPO",
+  "observation_size": 62,
+  "action_size": 16,
+  "num_agents": 3,
+  "participants": [
+    "RC01",
+    "RC02",
+    "RC03"
+  ],
+  "rounds": 3,
+  "episodes_per_centre": 4,
+  "training_seed": 42,
+  "aggregation": "FedAvg",
+  "local_data": "Separate simulated disaster scenarios",
+  "privacy_guarantee": false,
+  "synthetic_experiment": true,
+  "round_history": [
+    {
+      "round": 1,
+      "participants": {
+        "RC01": {
+          "mean_reward": 541.3,
+          "training_loss": 3292.4607
+        },
+        "RC02": {
+          "mean_reward": 506.7669,
+          "training_loss": 2884.2702
+        },
+        "RC03": {
+          "mean_reward": 562.7456,
+          "training_loss": 3658.0146
+        }
+      },
+      "aggregation_verified": true
+    },
+    {
+      "round": 2,
+      "participants": {
+        "RC01": {
+          "mean_reward": 547.7481,
+          "training_loss": 3449.2494
+        },
+        "RC02": {
+          "mean_reward": 525.7671,
+          "training_loss": 3159.3239
+        },
+        "RC03": {
+          "mean_reward": 569.5557,
+          "training_loss": 3720.7543
+        }
+      },
+      "aggregation_verified": true
+    },
+    {
+      "round": 3,
+      "participants": {
+        "RC01": {
+          "mean_reward": 535.369,
+          "training_loss": 3193.9469
+        },
+        "RC02": {
+          "mean_reward": 525.6544,
+          "training_loss": 3248.7141
+        },
+        "RC03": {
+          "mean_reward": 568.9865,
+          "training_loss": 3579.0576
+        }
+      },
+      "aggregation_verified": true
+    }
+  ],
+  "evaluation": {
+    "baseline": {
+      "scenarios": 6,
+      "mean_minimum_coverage": 77.64,
+      "mean_average_coverage": 92.06,
+      "mean_zero_coverage_items": 0
+    },
+    "fedavg_gat_ppo": {
+      "scenarios": 6,
+      "mean_minimum_coverage": 0.0,
+      "mean_average_coverage": 87.14,
+      "mean_zero_coverage_items": 1
+    }
+  },
+  "approved_for_operational_allocation": false
+}

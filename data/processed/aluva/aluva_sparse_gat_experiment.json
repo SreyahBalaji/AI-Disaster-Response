@@ -1,0 +1,36 @@
+{
+  "thresholds": {
+    "water_litres": 1.0,
+    "food_meals": 1.0,
+    "rescue_cases": 0.025,
+    "shelter_households": 0.1,
+    "medical_cases": 0.075
+  },
+  "test_cells": 31200,
+  "changed_cells": 632,
+  "results": {
+    "persistence": {
+      "mse": 0.06415241956710815,
+      "mae_original_units": 3.18464732170105,
+      "changed_cell_mae": 157.21676635742188,
+      "unchanged_cell_mae": 0.0,
+      "false_change_rate_percent": 0.0
+    },
+    "gat_v3": {
+      "mse": 0.06648676842451096,
+      "mae_original_units": 11.694293975830078,
+      "changed_cell_mae": 146.90061950683594,
+      "unchanged_cell_mae": 8.89887523651123,
+      "false_change_rate_percent": 100.0
+    },
+    "sparse_gat": {
+      "mse": 0.06488644331693649,
+      "mae_original_units": 3.781437635421753,
+      "changed_cell_mae": 156.41748046875,
+      "unchanged_cell_mae": 0.6256542205810547,
+      "false_change_rate_percent": 31.294164061546326
+    }
+  },
+  "synthetic_data": true,
+  "threshold_selection": "Validation scenarios only"
+}

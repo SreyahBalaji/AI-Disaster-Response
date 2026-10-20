@@ -1,0 +1,331 @@
+{
+  "training_seed": 42,
+  "training_episodes": 200,
+  "comparison": "GAT-PPO v2 vs no-GAT PPO with identical architecture and fairness reward",
+  "summary": {
+    "STATIC": {
+      "baseline": {
+        "mean_minimum_coverage": 100.0,
+        "mean_average_coverage": 100.0,
+        "mean_zero_coverage_items": 0
+      },
+      "no_gat": {
+        "mean_minimum_coverage": 100.0,
+        "mean_average_coverage": 100.0,
+        "mean_zero_coverage_items": 0
+      },
+      "gat_v2": {
+        "mean_minimum_coverage": 100.0,
+        "mean_average_coverage": 100.0,
+        "mean_zero_coverage_items": 0
+      }
+    },
+    "DYNAMIC": {
+      "baseline": {
+        "mean_minimum_coverage": 77.64,
+        "mean_average_coverage": 92.06,
+        "mean_zero_coverage_items": 0
+      },
+      "no_gat": {
+        "mean_minimum_coverage": 52.41,
+        "mean_average_coverage": 92.41,
+        "mean_zero_coverage_items": 0
+      },
+      "gat_v2": {
+        "mean_minimum_coverage": 35.05,
+        "mean_average_coverage": 90.15,
+        "mean_zero_coverage_items": 0.17
+      }
+    }
+  },
+  "results": [
+    {
+      "scenario": "S7-1",
+      "method": "baseline",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-2",
+      "method": "baseline",
+      "dynamic": true,
+      "minimum_coverage": 84.60754332313965,
+      "average_coverage": 95.5258804438661,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 79.40876656472987,
+      "average_coverage": 96.3391392988521,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 29.12280701754386,
+      "average_coverage": 90.68163528086271,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-3",
+      "method": "baseline",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-4",
+      "method": "baseline",
+      "dynamic": true,
+      "minimum_coverage": 86.57047724750278,
+      "average_coverage": 92.13747781424645,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 57.69230769230769,
+      "average_coverage": 92.57502347818664,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S7-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 30.97345132743363,
+      "average_coverage": 87.42822903497682,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-1",
+      "method": "baseline",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-2",
+      "method": "baseline",
+      "dynamic": true,
+      "minimum_coverage": 70.4225352112676,
+      "average_coverage": 87.18343279311148,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 35.0547730829421,
+      "average_coverage": 86.33941923143801,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 41.71348314606742,
+      "average_coverage": 89.32107210546403,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-3",
+      "method": "baseline",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-4",
+      "method": "baseline",
+      "dynamic": true,
+      "minimum_coverage": 68.02721088435374,
+      "average_coverage": 89.98656766818264,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 26.360544217687075,
+      "average_coverage": 88.88282776422938,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S19-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 50.68337129840547,
+      "average_coverage": 92.009194678151,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-1",
+      "method": "baseline",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-1",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-1",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-2",
+      "method": "baseline",
+      "dynamic": true,
+      "minimum_coverage": 76.22504537205081,
+      "average_coverage": 93.14325521222072,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-2",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 41.01633393829401,
+      "average_coverage": 93.44625932647712,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-2",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 57.79220779220779,
+      "average_coverage": 95.3102453102453,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-3",
+      "method": "baseline",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-3",
+      "method": "no_gat",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-3",
+      "method": "gat_v2",
+      "dynamic": false,
+      "minimum_coverage": 100.0,
+      "average_coverage": 100.0,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-4",
+      "method": "baseline",
+      "dynamic": true,
+      "minimum_coverage": 80.0,
+      "average_coverage": 94.39477189477189,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-4",
+      "method": "no_gat",
+      "dynamic": true,
+      "minimum_coverage": 74.95652173913044,
+      "average_coverage": 96.86956521739131,
+      "zero_coverage_items": 0
+    },
+    {
+      "scenario": "S41-4",
+      "method": "gat_v2",
+      "dynamic": true,
+      "minimum_coverage": 0.0,
+      "average_coverage": 86.16304347826087,
+      "zero_coverage_items": 1
+    }
+  ]
+}

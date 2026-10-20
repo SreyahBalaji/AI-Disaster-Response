@@ -1,0 +1,65 @@
+{
+  "model": "Fairness-aware GAT-PPO v2",
+  "observations": 62,
+  "actions": 16,
+  "episodes": 200,
+  "seed": 42,
+  "reward": "Ward-resource coverage improvement with terminal unmet-demand penalty",
+  "evaluation": {
+    "STATIC": {
+      "baseline": {
+        "minimum_coverage": 100.0,
+        "average_coverage": 100.0,
+        "steps": 68,
+        "shortages": []
+      },
+      "gat_ppo_v2": {
+        "minimum_coverage": 100.0,
+        "average_coverage": 100.0,
+        "steps": 68,
+        "shortages": []
+      }
+    },
+    "DYNAMIC": {
+      "baseline": {
+        "minimum_coverage": 83.33,
+        "average_coverage": 95.49,
+        "steps": 100,
+        "shortages": [
+          {
+            "ward": 3,
+            "resource": "water_litres",
+            "coverage": 83.33,
+            "unmet": 80
+          },
+          {
+            "ward": 5,
+            "resource": "water_litres",
+            "coverage": 86.67,
+            "unmet": 40
+          },
+          {
+            "ward": 9,
+            "resource": "water_litres",
+            "coverage": 89.39,
+            "unmet": 76
+          }
+        ]
+      },
+      "gat_ppo_v2": {
+        "minimum_coverage": 72.63,
+        "average_coverage": 96.96,
+        "steps": 100,
+        "shortages": [
+          {
+            "ward": 9,
+            "resource": "water_litres",
+            "coverage": 72.63,
+            "unmet": 196
+          }
+        ]
+      }
+    }
+  },
+  "approved_for_real_dispatch": false
+}

@@ -1,0 +1,15 @@
+{
+  "model": "GAT-informed cooperative PPO",
+  "observation_size": 62,
+  "action_size": 16,
+  "num_agents": 3,
+  "wards": [
+    3,
+    5,
+    9
+  ],
+  "training_episodes": 120,
+  "seed": 42,
+  "embedding_source": "aluva_gat_embeddings.csv",
+  "evaluation_status": "Exploratory; not approved for dispatch"
+}

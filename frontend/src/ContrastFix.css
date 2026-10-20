@@ -1,0 +1,138 @@
+
+/* RESPONDA — GLOBAL HIGH-CONTRAST TEXT FIX */
+
+:root {
+  color-scheme: dark;
+}
+
+/* White text across every dashboard page */
+
+.cc-app :is(.cc-sidebar, .cc-header, .cc-body)
+  :is(
+    h1, h2, h3, h4, h5, h6,
+    p, span, small, strong, b, em,
+    label, li, dt, dd, th, td,
+    caption, legend, summary,
+    button, select, input, textarea,
+    a, output
+  ) {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* Inherited text */
+
+.cc-app .cc-sidebar,
+.cc-app .cc-header,
+.cc-app .cc-body,
+.cc-app .cc-body :is(
+  section, article, div, table, ul, ol
+) {
+  color: #ffffff !important;
+}
+
+/* DISASTER EVENT TIMELINE */
+
+.cc-app .cc-body .event-card,
+.cc-app .cc-body .event-list .event-card {
+  background: #0d2f55 !important;
+  border-color: #355e88 !important;
+}
+
+.cc-app .cc-body .event-card strong,
+.cc-app .cc-body .event-card p,
+.cc-app .cc-body .event-card .event-step,
+.cc-app .cc-body .event-card .event-tags span {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* Dark badges so white labels remain readable */
+
+.cc-app .cc-body .event-step,
+.cc-app .cc-body .ds-reason-number {
+  background: #155588 !important;
+  border: 1px solid #438fc3 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+/* Event and resource tags */
+
+.cc-app .cc-body .event-tags span,
+.cc-app .cc-body .ds-chips span,
+.cc-app .cc-body .ai-report-tags span {
+  background: #164a73 !important;
+  border: 1px solid #347eac !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+/* Resource card numbers, units and captions */
+
+.cc-app .cc-body .resource-summary-card,
+.cc-app .cc-body .resource-summary-card
+  :is(strong, small, span, p, div),
+.cc-app .cc-body .metric-card
+  :is(strong, small, span, p),
+.cc-app .cc-body .viz-demand
+  :is(strong, small, span, p),
+.cc-app .cc-body .viz-comparison
+  :is(strong, small, span, p) {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* SVG chart labels and ward labels */
+
+.cc-app .cc-body svg text {
+  fill: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.cc-app .cc-body .gat-svg text {
+  paint-order: stroke fill;
+  stroke: #03152c;
+  stroke-width: 2.5px;
+  stroke-linejoin: round;
+}
+
+/* Text inputs */
+
+.cc-app :is(input, textarea)::placeholder {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* Selected text */
+
+.cc-app ::selection {
+  background: #2374c0;
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
+}
+
+/*
+  Leaflet map controls and popups have light backgrounds.
+  Their text must remain dark to stay readable.
+*/
+
+.cc-app .leaflet-container .leaflet-popup-content,
+.cc-app .leaflet-container .leaflet-popup-content *,
+.cc-app .leaflet-container .leaflet-control-attribution,
+.cc-app .leaflet-container .leaflet-control-attribution *,
+.cc-app .leaflet-container .leaflet-control-zoom a,
+.cc-app .leaflet-container .leaflet-control-zoom a span {
+  color: #10243b !important;
+  -webkit-text-fill-color: #10243b !important;
+  opacity: 1 !important;
+}
+
+.cc-app .leaflet-container .leaflet-popup-content-wrapper,
+.cc-app .leaflet-container .leaflet-control-zoom a {
+  background: #ffffff !important;
+}

@@ -1,0 +1,11 @@
+/* Phase 19 — Step 2: Visual analytics, dark-blue accessible charts */
+.viz-comparison,.viz-demand,.viz-wards{display:grid;gap:16px;color:#f3f9ff}
+.viz-legend{display:flex;flex-wrap:wrap;gap:22px;font-size:13px;color:#c7e3fa}
+.viz-legend span{display:flex;align-items:center;gap:8px}.viz-dot{display:inline-block;width:11px;height:11px;border-radius:4px}.viz-ppo{background:#37b9ff}.viz-baseline{background:#27e4bf}
+.viz-comparison-row,.viz-demand-row,.viz-ward{background:#081b34;border:1px solid #24496d;border-radius:15px;padding:17px 19px}
+.viz-row-title,.viz-demand-heading{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px}.viz-row-title strong,.viz-demand-heading strong{font-size:16px;color:#fff}.viz-row-title span,.viz-demand-heading span,.viz-quantities,.viz-ward-detail{color:#c3def4;font-size:12px}
+.viz-pair{display:grid;gap:10px}.viz-bar-line{display:grid;grid-template-columns:75px minmax(0,1fr) 62px;align-items:center;gap:12px;color:#d4edff;font-size:12px}.viz-bar-line strong,.viz-ward-bar strong{color:#fff;text-align:right;font-variant-numeric:tabular-nums}
+.viz-track,.viz-demand-track{height:13px;border-radius:100px;background:#183653;overflow:hidden;border:1px solid #2a4d70}.viz-fill,.viz-demand-allocated{height:100%;border-radius:100px;transition:width .4s ease}.viz-fill-ppo{background:linear-gradient(90deg,#1767f0,#39c8ff)}.viz-fill-baseline,.viz-demand-allocated{background:linear-gradient(90deg,#087dba,#2ae5c3)}.viz-quantities{margin-top:11px}
+.viz-wards{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}.viz-ward-label{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:15px}.viz-ward-label strong{color:#fff}.viz-ward-label span{color:#c1dbf1;font-size:11px}.viz-ward-bar{display:grid;grid-template-columns:minmax(0,1fr) 60px;gap:10px;align-items:center}.viz-ward-detail{margin-top:12px}
+.viz-demand-track{height:20px}.viz-demand-figures{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-top:12px;color:#bedaf0;font-size:12px}.viz-demand-figures strong{display:block;color:#fff;font-size:14px;margin-top:4px}
+@media(max-width:650px){.viz-bar-line{grid-template-columns:60px minmax(0,1fr) 55px;gap:7px}.viz-comparison-row,.viz-demand-row,.viz-ward{padding:13px}.viz-wards{grid-template-columns:1fr}}
